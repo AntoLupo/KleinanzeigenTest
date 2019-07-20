@@ -11,22 +11,14 @@
 </head>
 <body>
 
-<img src="../img/01.png" /><br>
-
-
-<a class=button1 href="View02.jsp">Einloggen</a>
-<a class=button1 href="View03.jsp">Registrieren</a>
-<input class=button1 type="button" name="Meine Anzeigen" value="Meine Anzeigen" />
-<input class=button1 type="button" name="suchen" value="Suche" />
-
-
-
-
-
-
-
-
-
+<b>Registrieren:</b><br>
+<br>
+Email: <input  type="text" name="email" value="" /> <br>
+Passwort: <input  type="password" name="password" value=""/><br> 
+<br><br>
+<input  type="button" name="login" value="Registrieren" />
+<br>
+<a href="View01.jsp">Zurück</a>
 
 </body>
 </html>

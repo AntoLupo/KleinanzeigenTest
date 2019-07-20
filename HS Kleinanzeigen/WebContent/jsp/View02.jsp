@@ -18,11 +18,12 @@ Passwort: <input  type="password" name="password" value=""/><br>
 <br><br>
 <input  type="button" name="login" value="Anmelden" /><br>
 
+<a href="View01.jsp">Zurück</a>
 
 <br>
 Noch nicht registriert?<br>
 Einfaches Verwalten und Bearbeiten von Anzeigen<br>
-<a href="View3">In 30 Sekunden registrieren</a><br>
+<a href="View03">In 30 Sekunden registrieren</a><br>
 
 
 
