@@ -11,14 +11,11 @@
 </head>
 <body>
 
-<img src="../img/01.png" />
+<img src="../img/01.png" /><br>
 
 
-<h2>Kleinanzeigen HWG</h2>
-
-
-<input class=button1  type="button" name="einloggen" value="Einloggen" />
-<input class=button1  type="button" name="registrieren" value="Registrieren" />
+<a class=button1 href="View2.jsp">Einloggen</a>
+<a class=button1 href="View3.jsp">Registrieren</a>
 <input class=button1 type="button" name="Meine Anzeigen" value="Meine Anzeigen" />
 <input class=button1 type="button" name="suchen" value="Suche" />
 
