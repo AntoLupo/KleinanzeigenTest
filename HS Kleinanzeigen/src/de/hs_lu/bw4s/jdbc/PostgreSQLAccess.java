@@ -1,4 +1,4 @@
-package de.fh_lu.o4spruef.jdbc;
+package de.hs_lu.bw4s.jdbc;
 
 public class PostgreSQLAccess extends JDBCAccess {
 
