@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+body {
+
+  background-image: url("../img/01.png");
+  background-size: 25% auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: white;
+  
+}
+
+.LoginViewCenter{
+	
+	padding-top: 320px;
+	text-align: center;
+}
+
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #79a0ad;
+	-webkit-box-shadow: 3px 4px 0px 0px #79a0ad;
+	box-shadow: 3px 4px 0px 0px #79a0ad;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #a69ca6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #a69ca6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #a69ca6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #a69ca6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #a69ca6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #a69ca6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#a69ca6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#2a859c;
+	font-family:Arial;
+	font-size:28px;
+	padding:5px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 25px #9da0c4;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a69ca6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #a69ca6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #a69ca6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #a69ca6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #a69ca6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #a69ca6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a69ca6', endColorstr='#ffffff',GradientType=0);
+	background-color:#a69ca6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

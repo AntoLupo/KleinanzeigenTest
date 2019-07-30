@@ -8,25 +8,39 @@
 
 
 <link type="text/css" rel="stylesheet" href="../CSS/kleinanzeigen.css" />
+<link type="text/css" rel="stylesheet" href="../CSS/LoginView.css" />
 </head>
 <body>
+<div class="logo" ></div>
+<div class="LoginViewCenter">
 
-<b>Einloggen:</b><br>
-<br>
-Email: <input  type="text" name="email" value="" /> <br>
-Passwort: <input  type="password" name="password" value=""/><br> 
-<br><br>
-<input  type="button" name="login" value="Anmelden" /><br>
-
-<a href="View01.jsp">Zurück</a>
-
-<br>
-Noch nicht registriert?<br>
-Einfaches Verwalten und Bearbeiten von Anzeigen<br>
-<a href="View03">In 30 Sekunden registrieren</a><br>
-
+<table>
+	<tr class="einloggen"><td class="einloggen"> Einloggen </td></tr>
+	<tr> <td class="spacing"></td></tr>
+	<tr><td class="schrift"> Email </td> </tr>
+	<tr><td><input  type="text" name="email" value="" /></td> </tr>
+	<tr class="spacing"> <td class="spacing"> </td></tr>
+	<tr><td class="schrift">Password</td></tr>
+	<tr><td><input  type="password" name="password" value=""/></td> </tr>
+		<tr class="spacing"> <td class="spacing"> </td></tr>
+	<tr><td class="reg"> Noch nicht registriert? In 30 Sekunden <a href="View03">registrieren</a> </td> </tr>
+	
+	
 
 
+
+
+
+
+
+
+
+
+
+
+ </table> 
+
+ </div> 
 
 
 
