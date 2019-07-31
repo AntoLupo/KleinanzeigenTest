@@ -6,6 +6,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link type="text/css" rel="stylesheet" href="../CSS/LoginView.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>BW4S-Portal-Login</title>
 
@@ -21,29 +22,36 @@
 <h4><jsp:getProperty name="mb" property="actionMessage" /></h4>
 
 <form action="./LoginAppl.jsp" method="get">
+<div class="LoginViewCenter"> 
 <table>
+<tr ><td class="einloggen"> Einloggen </td></tr>
+<tr> <td class="spacing"></td></tr>
+<tr><td class="schrift">Nickname </td> </tr>
 <tr>
-	<td>Nickname: </td>
-	<td><input type="text"
+	<td><input class="feld" 
+				type="text"
 				name="userid"
 				value="<jsp:getProperty name='lb' property='userid' />"
 		/>
 	</td>
 </tr>
+<tr> <td class="spacing"></td></tr>
+<tr><td class="schrift">Password </td> </tr>
 <tr>
-	<td>Passwort:</td>
-	<td><input type="password" name="password" value="" /></td>
+	<td><input class="feld" type="password" name="password" value="" /></td>
 </tr>
+<tr> <td class="spacing"></td></tr>
 <tr>
-<td></td>
 <td>
-	<input type="submit" name="login" value="Login" />
+	<input class="submit" type="submit" name="login" value="Login" />
 </td>
+<tr>
+<td class="oder"> oder </td>
 </tr>
+<tr><td><a href="./LoginAppl.jsp?zurReg=zurReg">Registrieren</a></td> </tr>
 </table>
+ </div> 
 </form>
-Noch kein Nickname? Registrieren Sie sich 
-<a href="./LoginAppl.jsp?zurReg=zurReg">hier</a>.
 
 </body>
 </html>
