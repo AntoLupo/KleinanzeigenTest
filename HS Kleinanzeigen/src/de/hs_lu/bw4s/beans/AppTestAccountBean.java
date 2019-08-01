@@ -18,7 +18,7 @@ public class AppTestAccountBean {
 		
 	}
 	public void testInsertNoCheck() throws SQLException{
-		myAccountBean.setUserid("testus11");
+		myAccountBean.setUserid("testus111");
 		myAccountBean.setPassword("geheim");
 		myAccountBean.setActive("Y");
 		myAccountBean.setAdmin("N");
